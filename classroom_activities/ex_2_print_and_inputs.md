@@ -263,8 +263,8 @@ Try some single digit numbers. Does it do the right thing?
 ## 15
 ## Try this.
 print("Welcome to the number adder that works well!")
-a = int(input("Type an integer: "))
-b = int(input("Type another integer: "))
+a = int(input("What's a number you like? "))
+b = int(input("Can you give me another number you like? "))
 c = a + b
 print(c)
 ```
@@ -274,32 +274,32 @@ Notice that the `int` function tells Python to convert the numbers to integers. 
 ```python3
 ## 16
 ## Try this. You will get an error. How do you fix it?
-a = input("Type an integer: ")
-b = int(input("Type another integer: "))
+a = input("What is a number you like? ")
+b = int(input("Can you give me another number you like? "))
 c = a + b
 print(c)
 
 
 ## 17
 ## Try this. You will get an error. How do you fix it?
-favnum = input("What is your favorite number?")
+favnum = input("What is your favorite number? ")
 onemore = favnum + 1
 print(f"One more would be {onemore}")
 
 
 ## 18
-## Ask the user for two integers.
-## Display "The sum of your two numbers is ___".
+## Ask the user for an integer.
+## Display "That number plus 2 is ___".
 
 
 ## 19
 ## Ask the user for two integers.
-## Display "The first number minus the second number is ___".
+## Display "The sum of your two numbers is ___".
 
 
 ## 20
-## Ask the user for an integer.
-## Display "That number plus 2 is ___".
+## Ask the user for two integers.
+## Display "The first number minus the second number is ___".
 
 
 ## 21
@@ -317,6 +317,7 @@ print(f"One more would be {onemore}")
 ## Ask the user for name and age.
 ## Display "Guess what, ___, in two years you'll be ___."
 ## (The user-provided name goes in the first blank, and the age two years from now in the second blank.)
+
 
 ## 23
 ## (Optional)
