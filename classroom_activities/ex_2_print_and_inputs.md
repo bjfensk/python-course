@@ -244,27 +244,25 @@ As you can see, if you add two strings (the things insides quotation marks), it 
 
 On the other hand, if you add two integers, it will do math addition: `5 + 3` is `8`.
 
-Let's look at how to handle inputs.
+Let's look at why that matters when working with inputs.
 
 ```python3
-## 13 
-## Try this.
-a = int("5")
-b = int("3")
-c = a + b
-print(c)
-
-
 ## 14
 ## Try this.
-a = input("Type an integer: ")
-b = input("Type another integer: ")
+print("Welcome to the number adder that doesn't work right!")
+a = input("What's a number you like? ")
+b = input("Can you give me another number you like? ")
 c = a + b
+print("I added them. Here's what I got...")
 print(c)
+```
 
+Try some single digit numbers. Does it do the right thing?
 
+```python3
 ## 15
 ## Try this.
+print("Welcome to the number adder that works well!")
 a = int(input("Type an integer: "))
 b = int(input("Type another integer: "))
 c = a + b
